@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.erick.controlproyecto.RegistroControl"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.10"
+        android:orientation="vertical"
+        android:background="#1D4851">
+
+
+
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:src="@drawable/pro"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="323dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textFormulario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="SOLICITUD"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+
+            />
+
+        <EditText
+            android:id="@+id/txtNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="Nombre"
+            android:inputType="text"
+            android:textColorLink="@android:color/holo_green_light" />
+
+        <EditText
+            android:id="@+id/txtVilla"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Horas de uso"
+            android:inputType="text"
+            android:textColorLink="@android:color/holo_green_light" />
+
+        <EditText
+            android:id="@+id/txtTelefono"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Dia"
+            android:inputType="text"
+            android:textColorLink="@android:color/holo_green_light" />
+
+
+
+</LinearLayout>
+</LinearLayout>
